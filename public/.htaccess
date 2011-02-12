@@ -5,7 +5,6 @@ RewriteRule ^(.*)$ "http\:\/\/dev.dikulan\.dk/$1" [R=301,L]
 RewriteCond %{HTTP_HOST} ^www.dikulan.dk$
 RewriteRule ^(.*)$ "http\:\/\/dikulan\.dk/$1" [R=301,L]
 
-RewriteBase /
+
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ /bootstrap.php [L,QSA]
+RewriteRule ^(.*)$ bootstrap.php [QSA,L]
