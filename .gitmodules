@@ -10,3 +10,6 @@
 [submodule "Slim"]
 	path = lib/Slim
 	url = https://github.com/codeguy/Slim.git
+[submodule "plugins/wordpress"]
+	path = plugins/wordpress
+	url = https://github.com/jmoeller/slim-wordpress.git
