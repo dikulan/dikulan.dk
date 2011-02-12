@@ -1,6 +1,3 @@
-[submodule "lib"]
-	path = lib
-	url = git@github.com:jmoeller/hshlib.git
 [submodule "Twig"]
 	path = Twig
 	url = git://github.com/fabpot/Twig.git
