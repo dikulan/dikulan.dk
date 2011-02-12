@@ -10,3 +10,6 @@
 [submodule "idiorm"]
 	path = idiorm
 	url = https://github.com/j4mie/idiorm.git
+[submodule "Slim"]
+	path = Slim
+	url = https://github.com/codeguy/Slim.git
