@@ -1,3 +1,15 @@
-[submodule "lib"]
-	path = lib
-	url = git@github.com:jmoeller/hshlib.git
+[submodule "Twig"]
+	path = lib/Twig
+	url = git://github.com/fabpot/Twig.git
+[submodule "paris"]
+	path = lib/paris
+	url = https://github.com/j4mie/paris.git
+[submodule "idiorm"]
+	path = lib/idiorm
+	url = https://github.com/j4mie/idiorm.git
+[submodule "Slim"]
+	path = lib/Slim
+	url = https://github.com/codeguy/Slim.git
+[submodule "plugins/wordpress"]
+	path = plugins/wordpress
+	url = https://github.com/jmoeller/slim-wordpress.git
