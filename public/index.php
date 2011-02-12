@@ -21,6 +21,9 @@ HSH::get("/kontrol/taarn", "control:tower");
 HSH::get("/kontrol/crash", "control:crash");
 HSH::get("/kontrol/ny", "control:create");
 HSH::post("/kontrol/ny", "control:create");
+HSH::get("/kontrol/rediger", "control:editlist");
+HSH::get("/kontrol/rediger/@id", "control:edit");
+HSH::post("/kontrol/rediger/@id", "control:edit");
 
 HSH::run();
 ?>

@@ -62,5 +62,9 @@ class Control {
     }
   }
 
+  public function editlist() {
+    echo "Show stuff";
+  }
+
 }
 ?>
