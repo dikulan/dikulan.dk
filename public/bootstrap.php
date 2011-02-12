@@ -12,4 +12,8 @@ Slim::init(array(
   , "twig.options" => array("auto_reload" => true, "strict_variables" => true, "debug" => true)
 ));
 
+Slim::get("/", function() {
+  Slim::render("helloworld.php");
+});
+
 Slim::run();
